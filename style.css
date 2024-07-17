@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    background-color: #004274;
+    position: sticky;
+    top: 0;
+}
+li a{
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+#hell {
+    font-size: 30px;
+}
+header{
+    min-height: 70px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 5px;
+    font-family: "Poppins", sans-serif;
+}
+input{
+    height: 40px;
+    margin-top: 5px;
+    width: 450px;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid rgb(231, 229, 229);
+    background-color: transparent;
+    font-family: "Poppins", sans-serif;
+    border-radius: 4px;
+}
+select{
+
+    height: 40px;
+    outline: none;
+    width: 150px;
+        padding-left: 5px;
+    border: 1px solid rgb(231, 229, 229);
+    background-color: transparent;
+    border-radius: 4px;
+    font-family: "Poppins", sans-serif;
+}
+button{
+    height: 40px;
+    width: 100px;
+    background-color: #004274;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+.back{
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url(h1_hero1.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.center{
+    height: 400px;
+    width: 800px;
+    /* background-color: red; */
+    text-align: center;
+    margin-top: 200px;
+}
+  .center h3{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+ .center h1{
+    color: white;
+    font-size: 65px;
+    font-family: sans-serif;
+}
+.center h2{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.view{
+    height: 45px;
+    width: 180px;
+    background-color: #00AEFF;
+    border-radius: 5px;
+}
+.headd{
+
+    min-height: 170px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.headd h1{
+
+   padding-top: 20px;
+   font-family: "Poppins", sans-serif;
+
+}
+#cardiimd{
+    min-height: 90vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.cards{
+    height: 500px;
+    width: 350px;
+    border: 1px solid rgb(216, 214, 214);
+    border-radius: 5px;
+}
+.cards img{
+    height: 230px;
+    border-radius: 5px;
+    width: 100%;
+}
+.cards span{
+
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+}
+.cards p{
+    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+}
+.cards button{
+
+    margin-left: 10px;
+}
+.people{
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(section-bg1.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.people-under{
+    min-height: 70vh;
+    width: 90%;
+    /* background-color: red; */
+    text-align: center;
+
+}
+.people-under h1{
+
+    padding-top: 10px;
+    color: white;
+}
+.goodd{
+    min-height:350px ;
+    width: 100% ;
+    margin-top: 20px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    flex-wrap: wrap;
+}
+.cord{
+    height: 300px;
+    width: 300px;
+    background-color: #00A0EB;
+    padding: 20px;
+}
+.cord i{
+
+    font-size: 60px;
+    color: white;
+    padding-top: 30px;
+}
+.cord span{
+
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.cord p{
+
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.agentName{
+    height: 180px;
+    width: 100%;
+    /* background-color: red; */
+    text-align: center;
+}
+.agentName h1{
+
+    padding-top: 30px;
+    
+}
+.agentName p{
+
+color: rgb(41, 40, 40);
+}
+.card-agent{
+    min-height: 70vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.carddd{
+    height: 400px;
+    width: 300px;
+    /* background-color: rgb(31, 17, 17); */
+    text-align: center;
+}
+
+.carddd img{
+    height: 300px;
+    width: 100%;
+}
+/* .carddd img:hover{
+
+    /* transform: scale(1.0); */
+/* } */
+.carddd span{
+    font-size: 22px;
+}
+
+.houe{
+
+    min-height: 70vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+}
+.houe-left{
+    min-height: 100%;
+    width: 50%;
+    background-color: #004274;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.houe-right{
+
+    background-image: url(subscribe-img.jpg.webp);
+    min-height: 100%;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+}
+/* .houe-right img{
+
+    height: 400px;
+    width: 100%;
+} */
+.papo{
+    min-height: 200px;
+    padding: 10px;
+    width: 75%;
+    /* background-color: rosybrown; */
+    text-align: left;
+}
+.papo h1{
+    font-size: 35px;
+
+}
+.papo input{
+
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.papo button{
+    background-color: #00AEFF;
+}
+
+footer{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.footer-card{
+
+    height: 35vh;
+    width: 250px;
+    /* background-color: red; */
+    text-align: left;
+}
+.footer-card h3{
+    padding: 20px;
+    font-size: 20px;
+}
+.footer-card a{
+
+    text-decoration: none;
+    padding: 20px ;
+    color: rgb(182, 182, 180);
+}
+.footer-card i{
+
+    color: rgb(182, 182, 180);
+    font-size: 17px;
+    margin-left: 12px;
+}
+.footer-card p{
+    padding: 20px;
+    color: rgb(182, 182, 180);
+}
+
+
+
+
+
+
+
+@media only screen and (max-width : 500px) {
+    
+    .center h1{
+        
+        font-size: 40px;
+    }
+    .footer-card {
+
+        width: 100%;
+    }
+
+}
+
+@media  only screen and (max-width : 800px) {
+    
+    .houe{
+        /* flex-direction: column; */
+    }
+
+    .houe-left{
+        width: 100%;
+    }
+
+    
+}
